@@ -1,7 +1,4 @@
-# GitTest2.0
-Let's see if I can get git working.
-
-Instructions:
+# Instructions:
 
 0. Modify the blacklist to your own liking, just remember to separate each entity with a comma. Write the banned phrases in quotations. Like this: ["Banned word 1", "Banned Word 2", "..."]
 0. a. OOPS! This script is super aggressive, so just putting H in would remove every single comment containing a h.
