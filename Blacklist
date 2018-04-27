@@ -31,7 +31,21 @@ for(i = 0; i<com_l; i++)
             } //Else do nothing I guess  ¯\_(ツ)_/¯
         }
         
-    } 
+    }
+//Automation.
+let notification = document.getElementById("header_notification_link");
+if(notification.className == "header_notification_btn global_header_toggle_button notification_count_total_ctn has_notifications")
+    {
+        //reload page
+        //window.location.reload();
+        
+        //TODO: Run this script on reload somehow.
+    }
+else if (notification.className == "header_notification_btn global_header_toggle_button notification_count_total_ctn no_notifications")
+    {
+        //nothing
+        //¯\_(ツ)_/¯
+    }
 }
 
 function Remove(actionLink, comment, i, x)
